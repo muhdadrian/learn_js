@@ -1,0 +1,18 @@
+ESCAPE CHARACTER
+1. \0 -> NULL character
+2. \' -> '
+3. \" -> "
+4. \\ -> \
+5. \n -> new line
+6. \t -> tab
+7. \b -> backspace
+8. \uXXXX -> unicode'
+
+#'You\'re the champ'
+#"You're the champ"
+
+UNICODE:
+1. '\u00A9' -> copyright symbol
+2. '\u2122' -> trademark logo
+
+'adrian'.length - type in console

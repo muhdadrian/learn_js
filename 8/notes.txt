@@ -1,0 +1,5 @@
+early value
+while (termination condition) {
+	action
+	increment / decrement
+} 

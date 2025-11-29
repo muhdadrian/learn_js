@@ -1,0 +1,23 @@
+VARIABLES:
+
+To understand variables, you must understand three things:
+1. Declaration - to declare variable.
+2. Initialization - to provide memory for variable.
+3. Assignment - to assign a value to variable.
+
+var x; - to declare and initialize x variable.
+x = 20; - to assign to the x variable;
+
+#always try to declare and initialize first before doing the assignment.
+
+Variable Declaration:
+1. var 
+2. let
+3. const
+
+# We'll use var (simplest) here first. When we already expert and understand about JS, we'll discuss the other two keywords. 
+
+#camelCase that is commonly used by JS programmer:
+
+var longVariableName;
+

@@ -1,0 +1,51 @@
+body {
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #666;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.card {
+  display: inline-block;
+  width: 220px;
+  padding: 0 80px;
+  height: 80px;
+  font-size: 16px;
+  line-height: 80px;
+  border-radius: 40px;
+  background-color: #f1f1f1;
+  margin: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.card img {
+  float: left;
+  margin: 0 10px 0 -80px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.card .name,
+.card .telp {
+  display: block;
+  line-height: 41px;
+  padding: 0 5px;
+  font-size: large;
+}
+
+.close {
+  position: relative;
+  top: -80px;
+  right: -150px;
+}
+
+.close:hover {
+  color: red;
+}

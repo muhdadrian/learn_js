@@ -1,0 +1,32 @@
+/* line-height to remove the space between the photo and bottom border, which is line-height default behaviour by the photo  */
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+body {
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* overflow meant to fix the collapsed container */
+.container {
+  width: 600px;
+  margin: 10px auto;
+  border: 5px solid white;
+  overflow: auto;
+}
+
+/* box-sizing to maintain the width */
+.thumb {
+  width: 200px;
+  float: left;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.thumb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

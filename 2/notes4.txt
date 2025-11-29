@@ -1,0 +1,13 @@
+BOOLEAN:
+
+TRUTHY          | 	FALSY
+true            | 	false
+non-zero number | 	0
+"string"        | 	""
+object          | 	undefined
+arrays          | 	null
+functions       | 	NaN
+
+#non-zero number above could be positive or negative
+#NaN - not a number
+

@@ -1,0 +1,43 @@
+FUNCTION:
+
+-function is a sub-program / sub-routine that can be called in other part in a program
+
+-fundamental building block of JS
+
+-a procedure (a group of statements to do task or calculate a value)
+
+-to use it, we need to make the function first, then call it
+
+-included in the First-Class Object
+
+WHY FUNCTION?
+-to avoid DRY
+
+-Decomposition - to hide the complexity by making the program into subs program. It's related with modularity. Easy for debugging etc
+
+-Modularity
+
+FUNCTION CATEGORIES:
+1. Built-in Function: 
+-built by JS. 
+-We just need to call it. 
+-Example:
+alert();
+confirm();
+prompt();
+and many more...
+
+Built-in function: String
+-slice()
+split()
+etc
+
+Built-in function: Math
+-random()
+-round()
+-floor()
+etc
+
+2. User-Defined Function:
+a. function declaration
+b. function expression

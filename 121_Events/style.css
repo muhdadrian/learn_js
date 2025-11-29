@@ -1,0 +1,26 @@
+* {
+  border: 2px solid #dedede;
+  padding: 15px;
+  margin: 15px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.light-blue {
+  background-color: lightblue;
+}
+
+/* active will only active when we continuously click the element. If we unclick, the color will be gone. To make it stay, use JS instead */
+/* .p3:active {
+  background-color: lightblue;
+} */

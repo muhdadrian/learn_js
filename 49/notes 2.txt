@@ -1,0 +1,6 @@
+Refactoring:
+-readability
+-DRY
+-testability
+-performance
+-maintainability

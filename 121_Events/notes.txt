@@ -1,0 +1,37 @@
+way to make event:
+1. Event Handler:
+- Inline HTML Attribute (not recommended as you mixed the HMTL with JS & we modified the HMTL, while we actually can add event without messing the HMTL)
+- Element Method
+2. addEventListener() 
+
+# the second one above is newer than the first one
+
+What is the difference between Event Handler and addEventListener()?
+- Event Handler - the last change will replace the previous one, while addEventListener will add the change
+
+# You can use Event Handler or addEventListener, but don't use Inline Event Handler - Sandhika Galih
+
+Events List:
+1. Mouse Event:
+- click
+- dblclick
+- mouseover
+- mouseenter
+- mouseup
+- wheel
+- etc
+2. Keyboard Event:
+- keydown
+- keypress
+- keyup
+3. Resources Event
+4. Focus Event
+5. View Event:
+- resize
+- scroll
+6. Form Event:
+- reset
+- submit
+7. CSS Animation & Transition Event
+8. Drag & Drop Event
+9. etc

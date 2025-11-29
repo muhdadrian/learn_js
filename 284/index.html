@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spread Operator</title>
+  </head>
+  <style>
+    body {
+      background-color: salmon;
+      text-align: center;
+    }
+
+    .name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 80px;
+      color: white;
+      transition: 3s;
+    }
+
+    /* but, this will affect all. We want each letter in the string become single element by using spread operator in JS and by adding <span> in each letter also by using JS*/
+    .name:hover {
+      transform: scale(2);
+    }
+  </style>
+  <body>
+    <ul>
+      <li>Sarah</li>
+      <li>Fatih</li>
+      <li>Fariq</li>
+    </ul>
+
+    <h1 class="name">Adrian</h1>
+    <script src="script.js"></script>
+  </body>
+</html>

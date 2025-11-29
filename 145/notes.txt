@@ -1,0 +1,7 @@
+DOM Traversal Method:
+1) parentNode - not neccessary HMTL - returned Node
+2) parentElement - it must be HTML - returned element
+3) nextSibling - the sibling of the element we choose, and the next is the next element - returned node
+4) nextElementSibling - returned element
+5) previousSibling - returned node
+6) previousElementSibling - returned element

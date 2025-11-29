@@ -1,0 +1,1 @@
+The purpose of increment in while loop is to avoid from the infinite loop

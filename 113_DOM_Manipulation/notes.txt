@@ -1,0 +1,39 @@
+DOM Manipulation:
+1. Element Manipulation:
+a) element.innerHTML - to change the tag content
+b) element.style.<property> - to change CSS style of element
+c) element. setAttribute() - to manipulate attribute of an element:
+- element.getAttribute()
+- element.setAttribute()
+- element.removeAttribute()
+d) element.classList - to manipulate class:
+- element.classList.add() - add new class
+- element.classList.remove() - to remove class
+- element.classList.toggle() - if the element has no class, it will add one, if already have, it will remove
+- element.classList.item() - to know specific class for example an element has three class, I want to know the 3rd class
+- element.classList.contains() - to check an element has specific class or not 
+- element.classList.replace() - to replace the available class with the new one
+
+e) etc
+
+2. Node Manipulation:
+a) document.createElement()
+b) document.createTextNode()
+c) node.appendChild()
+d) node.insertBefore()
+e) parentNode.removeChild()
+f) parentNode.replaceChild()
+g) etc
+
+#the node manipulation above are old and already supported all browsers
+
+Node Manipulation(New Method):
+a) parentNode.append() - to add element at the last in parent (appendChild)
+b) parentNode.prepend() - at early
+c) childNode.before() - insertBefore
+d) childNode.after()
+e) childNode.remove()
+f) childNode.replaceWith()
+g) etc
+
+#the new method may not be supported by some browsers (5 years ago) 

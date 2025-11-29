@@ -1,0 +1,23 @@
+any programming language is known as source code to be intepreted by machine language
+
+JS:
+1. free
+2. No need installation - enough with web browser
+3. 
+
+Data Types:
+1. Number: 
+-no int in JS, but only floating point
+-number with decimal: 10, 1500, 123456
+-accuracy is up to 15 digits (try no. 9 up to 15 and then 16 digits. See the result)
+-number with decimal: 3.14, 0.5, 100.00 (max 17 digits after the point)
+-exponent: 123e5 (12300000) | 123e-5 (0.00123)
+-negative no.:
+-special no: Infinity (2/0), -Infinity (-2/0), NaN (0/0 | 100/'apple') -> try in console
+2. String
+3. Boolean
+4. Object
+5. Function
+6. Undefined
+
+

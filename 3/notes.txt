@@ -1,0 +1,2 @@
+Why put script at below?
+Let HTML load first in the memory before JS does its work 

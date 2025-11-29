@@ -1,0 +1,8 @@
+array is a variable but more powerful, as it can contain more than a value
+
+array:
+1. key (index) and value pair
+2. its data type is object. In other programming language, array is its own data type.  
+3. array in JS has function or method to calculate the total element inside it.
+4. element in array can contain different data type just like in PHP. In C or Java all data type must be the same in array.
+

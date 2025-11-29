@@ -1,0 +1,9 @@
+POPUP BOX / DIALOG BOX
+
+Three types of popup box:
+1. alert 
+2. prompt - return value from input 
+3. confirm - return Boolean value: true (click ok) or false (click cancel)
+
+# confirm is used to ask for user's confirmation
+

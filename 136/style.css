@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+.light-blue {
+  background-color: lightblue;
+}
+
+.box {
+  width: 25px;
+  height: 25px;
+  margin: 10px auto;
+}
+.red {
+  background-color: red;
+}

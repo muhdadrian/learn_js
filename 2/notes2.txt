@@ -1,0 +1,66 @@
+ARITHMETIC OPERATOR:
+1. arithmetic
+2. assignment
+3. comparison
+4. logical
+5. string
+6. conditional
+7. typeof
+
+# arithmetic, assigment, comparison, logic and string are called binary operator - needs two operand:
+operand1 operator operand2
+
+# conditional - ternary operator: needs three operands
+
+# typeof - unary operator - needs only an operand:
+operator operand or,
+operand operator
+
+ARITHMETIC OPERATOR:
++, -, *, /, %
+
+# operator precedence:
+PEMDAS: parentheses, exponents, multiplication, division, addition, subtraction | () * / + -
+
+ASSIGNMENT OPERATOR:
+=, +=, -=, *=, /=, %=
+
+x += y | x = x + y
+x -= y | x = x - y
+x *= y | x = x * y
+x /= y | x = x / y
+x %= y | x = x % y
+
+COMPARISON OPERATOR:
+1. ==
+2. !=
+3. === (recommended compared to ==)
+4. !==
+5. >
+6. < 
+7. >=
+8. <=
+
+#The comparison operators above will produce boolean results
+
+LOGICAL OPERATOR:
+1. &&
+2. ||
+3. ! - !(x < 20)
+
+STRING OPERATOR:
++ , in JS if the operand is number it's arithemtic operator and if the operand is string, it's concatenation.
+
+TYPEOF OPERATOR:
+typeof(10)
+'number'
+typeof('10') 
+'string'
+typeof(true)
+'boolean'
+
+CONDITIONAL OPERATOR:
+(condition) ? true : false
+#if the condition is true, the true value will be displayed, if false, the false value will be displayed
+
+(x % 2 ==0) ? "even" : "odd"
