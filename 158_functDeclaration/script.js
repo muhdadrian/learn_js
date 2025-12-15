@@ -1,7 +1,7 @@
 /*
 There are four ways to make object in JS by using:
 1. Object Literal
-2. Function Declaration  
+2. Function Declaration
 3. Constructor Function (keyword new)
 4. Object.create()
 */
@@ -28,11 +28,17 @@ function Student(name, energy) {
 
 //to instantiate:
 let adrian = Student('Adrian', 10);
-//when you type adrian in console, the output will be undefined. Why? we omit the return keyword above
+//when you type adrian in console, the output will be undefined. Why? we omit the return keyword above. Try to uncomment: return student;
 
 //Now type 'adrian.eat(3)' and type 'adrian' on the next line in the console
 
 //to make another student, instantiate it. No need to duplicate the template
 let hafizah = Student('Hafizah', 5);
+
+/*
+my own idea to instantiate:
+let student1 = Student('Adrian', 10);
+let student2 = Student('Hafizah', 5);
+*/
 
 //we add another method in 159

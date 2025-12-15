@@ -41,6 +41,7 @@ let hafizah = Student('Hafizah', 5);
 
 //By using Object.create(studentMethod) we can tell its object parent - studentMethod
 //No need to register the method anymore
+//It's round bracket and not curly braces: Object.create()
 
 //Now, this is the most effective - its memory management and no need to think about the method registration
 //But, all you need is only a student, and not studentMethod, which is a new object that we have to make
